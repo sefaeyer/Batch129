@@ -3,7 +3,7 @@ package ssg18;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Listsssssssssssssssssss0 {
+public class Lists02 {
 
     public static void main(String[] args) {
         // verilen bir listede tekrar eden sayilari sadece 1 tane yapan
@@ -29,28 +29,24 @@ public class Listsssssssssssssssssss0 {
 
         List<Integer> tekrarsizList = new ArrayList<>();
 
-        //for each
+        //for each ===========================
         for(int w :sayilar){
             if(!tekrarsizList.contains(w)){
                 tekrarsizList.add(w);
             }
         }
         System.out.println(tekrarsizList);
+
         System.out.println("==================");
-        //for ile
+
+        //for ile =============================
         for (int i = 0; i < sayilar.size(); i++) {
 
             if(!tekrarsizList.contains(sayilar.get(i))){
                 tekrarsizList.add(sayilar.get(i));
             }
-
         }
-
-
         return tekrarsizList;
-
-
-
     }
 
 
