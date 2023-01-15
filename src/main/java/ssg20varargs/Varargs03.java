@@ -14,7 +14,8 @@ public class Varargs03 {
         String il5 = "cihan";
 
         enUzunIlIsmi(il1,il2,il3,il4,il5);
-        enUzunIlIsmi("adana","kahramanmaras","istanbul","van");
+
+
 
     }
     public static void enUzunIlIsmi(String ... str){
@@ -24,7 +25,6 @@ public class Varargs03 {
             if(w.length()>enUzunIlIsim.length()){// 5>0
                 enUzunIlIsim=w;
             }
-
 
         }
 

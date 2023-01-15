@@ -9,9 +9,10 @@ public class Varargs02 {
 
         NoVarargisimSoyisimAdres("Sefa","Eyer", "Adana");
 
-        display("Merhaba");//one argument
-        display("Sefa","Eyer","Adana");//3 arguments
-        display("Hos Geldiniz","!");// 2 arguments
+//        display("Merhaba");//one argument
+//        display("Sefa","Eyer","Adana");//3 arguments
+//        display("Hos Geldiniz","!");// 2 arguments
+        display2(35,"Merhaba","Sefa","Eyer","Adana");
 
     }
 
@@ -23,6 +24,14 @@ public class Varargs02 {
         for(String str:Value){
             System.out.print(str +" ");
         }
+    }
+
+    public static void display2(int a, String ... d){
+        for(String w:d){
+            System.out.print(w+" ");
+
+        }
+        System.out.println("Yas: "+a);
     }
 
 
