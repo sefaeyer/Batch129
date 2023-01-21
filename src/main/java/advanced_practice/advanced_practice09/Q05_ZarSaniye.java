@@ -63,19 +63,4 @@ public class Q05_ZarSaniye {
 
 
 
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-

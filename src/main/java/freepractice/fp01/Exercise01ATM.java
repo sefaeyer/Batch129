@@ -1,4 +1,4 @@
-package freepractice;
+package freepractice.fp01;
 
 import java.util.Scanner;
 

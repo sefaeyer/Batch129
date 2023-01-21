@@ -1,0 +1,19 @@
+package day30exceptionsinterface;
+
+public class HondaRunner {
+
+    public static void main(String[] args) {
+
+        Civic myCivic = new Civic();
+        myCivic.cool();
+
+        System.out.println("Ac price "+Ac.price);
+        System.out.println("Engine price = " + Engine.price);
+        System.out.println("Security price = " + Security.price);
+
+        System.out.println("Ac model = " + Ac.model);
+
+        Accord myAccord = new Accord();
+        myAccord.cool();
+    }
+}
