@@ -31,9 +31,5 @@ public class HashSet01 {
 
         int hc = hs.hashCode();
         System.out.println(hc);
-
-
     }
-
-
 }
