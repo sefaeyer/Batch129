@@ -1,4 +1,4 @@
-package projeler;
+package projeler.proje01;
 
 public class Project01 {
 
