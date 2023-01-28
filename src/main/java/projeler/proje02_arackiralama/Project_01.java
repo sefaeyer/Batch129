@@ -1,4 +1,4 @@
-package projeler.proje02;
+package projeler.proje02_arackiralama;
 
 public class Project_01 {
 

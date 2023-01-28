@@ -1,4 +1,4 @@
-package projeler.proje01;
+package projeler.proje01_taskagitmakas;
 
 public class Project01 {
 
