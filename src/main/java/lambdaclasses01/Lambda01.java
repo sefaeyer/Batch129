@@ -3,6 +3,7 @@ package lambdaclasses01;
 import day36lambda.Utils;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Lambda01 {
 
@@ -28,6 +29,9 @@ public class Lambda01 {
         System.out.println("\n  ********");
         System.out.print(pozitifElCarpLamEx(sayi));
         System.out.println("\n  ********");
+        System.out.print(ciftElKareKucBuySirlListReturn(sayi));
+        System.out.println("\n  ********");
+
 
     }
 
@@ -81,5 +85,14 @@ public class Lambda01 {
         int carpim =sayi.stream().filter(t->t>0).reduce(1,(t,u)->t*u);
         return carpim;
     }
+
+    //SORU10 : Listin cift elemanlarının, karelerini, kucukten buyuge sıralayıp list halinde return ederek yazdırınız
+    public static List<Integer> ciftElKareKucBuySirlListReturn(List<Integer> sayi){
+        List<Integer> sonuc = sayi.stream().filter(t->t%2==0).map(t->t*t).sorted().collect(Collectors.toList());
+        return sonuc;
+    }
+
+
+
 
 }
