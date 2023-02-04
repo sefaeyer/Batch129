@@ -1,4 +1,4 @@
-package mini_projects.login;
+package mini_projects.min1tekrar.login;
 
 public class User {
 
@@ -7,11 +7,15 @@ public class User {
     private String email;
     private String password;
 
+
     public User(String name, String username, String email, String password) {
         this.name = name;
         this.username = username;
         this.email = email;
         this.password = password;
+    }
+
+    public User() {
     }
 
     public String getName() {

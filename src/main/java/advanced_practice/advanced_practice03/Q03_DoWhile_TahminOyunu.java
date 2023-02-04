@@ -23,7 +23,7 @@ public class Q03_DoWhile_TahminOyunu {
             if(sayi<rastgeleSayi){
                 System.out.println(sayac+" hakkiniz kaldi");
                 System.out.println("Daha buyuk bir sayi giriniz");
-            }else if(sayi<rastgeleSayi){
+            }else if(sayi>rastgeleSayi){
                 System.out.println(sayac+" hakkiniz kaldi");
                 System.out.println("Daha Kucuk bir sayi giriniz");
             }else{

@@ -1,9 +1,8 @@
-package mini_projects.login;
+package mini_projects.min1.login;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.SimpleTimeZone;
 
 public class UserService {
     List<String> usernameList = new ArrayList<>();
