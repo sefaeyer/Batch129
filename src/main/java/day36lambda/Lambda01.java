@@ -94,7 +94,7 @@ public class Lambda01 {
                 distinct().
                 map(String::toUpperCase).
                 sorted(Comparator.comparing(Utils::getLastChar).reversed()).//t->t.charAt(t.length()-1) ==> lambda expression
-//                sorted(Comparator.reverseOrder()) .
+            //  sorted(Comparator.reverseOrder()) .
         forEach(t-> System.out.print(t+" "));
     }
 

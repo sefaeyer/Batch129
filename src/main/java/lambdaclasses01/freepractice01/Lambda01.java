@@ -1,4 +1,4 @@
-package lambdaclasses01;
+package lambdaclasses01.freepractice01;
 
 import day36lambda.Utils;
 
