@@ -8,6 +8,7 @@ public class stdRunnerTekrar {
 
         StudentTekrar std1 = new StudentTekrar();
         System.out.println(std1.age);
+        System.out.println(std1.m);
 
     }
 
